@@ -1,0 +1,54 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #F7F7F7 !important;
+}
+
+#navbar {
+    background-color: #fff !important;
+}
+
+#name-brand{
+    padding-top: 8px;
+    margin-left: 5px !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #067754;
+}
+
+.navbar-menu ul li a{
+    font-size: 18px;
+    color: black;
+}
+
+.btn-daftar, .btn-masuk{
+    border-radius: 8px;
+    padding: 8px 24px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn-daftar{
+    color: white !important;
+    background-color: #0AC489;
+}
+
+.btn-masuk{
+    border: 1px solid #0AC489;
+    color: #0AC489;
+}
+
+.btn-masuk:hover{
+    color: #0AC489;
+}
+
+.container-banner{
+    margin-top: 100px !important;
+}
+
+.container-banner .carousel-inner img{
+    border-radius: 10px !important;
+}
+
+.container-banner i{
+    font-size: 80px !important;
+}
