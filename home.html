@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/img/TONI.png">
-    <title>Lapak Tani</title>
+    <title>Lapak Tani | Home</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,15 +36,27 @@
             <div class="collapse navbar-collapse navbar-menu" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Penjualan</a>
+                        <a class="nav-link" href="home.html">Penjualan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pemesanan</a>
+                        <a class="nav-link" href="pesanan.html">Pemesanan</a>
                     </li>
                 </ul>
-                <div class="d-flex">
-                    <a href="registrasi.html" class="btn-daftar me-3">Daftar</a>
-                    <a href="login.html" class="btn-masuk">Masuk</a>
+                <div class="dropdown dropdown-profil">
+                    <a class="" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="d-flex card-profil">
+                            <p>antoni saputra</p>
+                            <div class="img-profil">
+                                <img src="assets/img/hakers.jpg" alt="" width="100px">
+                            </div>
+                        </div>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="profil.html">Profil</a></li>
+                        <li><a class="dropdown-item" href="#">Keranjang Belanja</a></li>
+                        <li><a class="dropdown-item" href="#">Riwayat Transaksi</a></li>
+                        <li><a class="dropdown-item" href="login.html">Keluar</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -81,12 +93,12 @@
     <div class="container container-belanja">
         <div class="row">
             <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
+                <a href="detailbelanja.html">
+                    <div class="card-belanja mb-4">
                         <div class="img-card-belanja">
                             <img src="assets/img/cabai.jpg" alt="">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body ms-2 mt-2">
                             <h5 class="card-title fw-bold text-dark">Cabai</h5>
                             <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
                             <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
@@ -103,12 +115,12 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
+                <a href="detailbelanja.html">
+                    <div class="card-belanja mb-4">
                         <div class="img-card-belanja">
                             <img src="assets/img/cabai.jpg" alt="">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body ms-2 mt-2">
                             <h5 class="card-title fw-bold text-dark">Cabai</h5>
                             <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
                             <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
@@ -125,12 +137,12 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
+                <a href="detailbelanja.html">
+                    <div class="card-belanja mb-4">
                         <div class="img-card-belanja">
                             <img src="assets/img/cabai.jpg" alt="">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body ms-2 mt-2">
                             <h5 class="card-title fw-bold text-dark">Cabai</h5>
                             <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
                             <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
@@ -147,12 +159,12 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
+                <a href="detailbelanja.html">
+                    <div class="card-belanja mb-4">
                         <div class="img-card-belanja">
                             <img src="assets/img/cabai.jpg" alt="">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body ms-2 mt-2">
                             <h5 class="card-title fw-bold text-dark">Cabai</h5>
                             <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
                             <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
@@ -169,12 +181,12 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
+                <a href="detailbelanja.html">
+                    <div class="card-belanja mb-4">
                         <div class="img-card-belanja">
                             <img src="assets/img/cabai.jpg" alt="">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body ms-2 mt-2">
                             <h5 class="card-title fw-bold text-dark">Cabai</h5>
                             <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
                             <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
@@ -191,102 +203,13 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
+                <a href="detailbelanja.html">
+                    <div class="card-belanja mb-4">
                         <div class="img-card-belanja">
                             <img src="assets/img/cabai.jpg" alt="">
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-dark">Cabai</h5>
-                            <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
-                            <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
-                            <div class="d-flex text-dark fs-6">
-                                <i class="fa-solid fa-fw fa-user icon-belanja"></i>
-                                <p>Antoni Saputra</p>
-                            </div>
-                            <div class="d-flex text-dark fs-6 flex-location">
-                                <i class="fa-solid fa-fw fa-location-dot"></i>
-                                <p>Lombok Timur</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
-                        <div class="img-card-belanja">
-                            <img src="assets/img/cabai.jpg" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-dark">Cabai</h5>
-                            <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
-                            <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
-                            <div class="d-flex text-dark fs-6">
-                                <i class="fa-solid fa-fw fa-user icon-belanja"></i>
-                                <p>Salaccas</p>
-                            </div>
-                            <div class="d-flex text-dark fs-6 flex-location">
-                                <i class="fa-solid fa-fw fa-location-dot"></i>
-                                <p>Sumatra Utara</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
-                        <div class="img-card-belanja">
-                            <img src="assets/img/cabai.jpg" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-dark">Cabai</h5>
-                            <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
-                            <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
-                            <div class="d-flex text-dark fs-6">
-                                <i class="fa-solid fa-fw fa-user icon-belanja"></i>
-                                <p>Salaccas</p>
-                            </div>
-                            <div class="d-flex text-dark fs-6 flex-location">
-                                <i class="fa-solid fa-fw fa-location-dot"></i>
-                                <p>Sumatra Utara</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
-                        <div class="img-card-belanja">
-                            <img src="assets/img/cabai.jpg" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-dark">Cabai</h5>
-                            <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
-                            <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
-                            <div class="d-flex text-dark fs-6">
-                                <i class="fa-solid fa-fw fa-user icon-belanja"></i>
-                                <p>Salaccas</p>
-                            </div>
-                            <div class="d-flex text-dark fs-6 flex-location">
-                                <i class="fa-solid fa-fw fa-location-dot"></i>
-                                <p>Sumatra Utara</p>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-3">
-                <a href="">
-                    <div class="card card-belanja mb-4" style="width: 18rem;">
-                        <div class="img-card-belanja">
-                            <img src="assets/img/cabai.jpg" alt="">
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold text-dark">Cabai</h5>
+                        <div class="card-body ms-2 mt-2">
+                            <h6 class="card-title fw-bold text-dark">Cabai</h6>
                             <p class="card-text fs-5 fw-bold">Rp.20.000/kg</p>
                             <p class="card-text text-minimal">Minimal Pembelian : 24kg</p>
                             <div class="d-flex text-dark fs-6">
@@ -362,7 +285,7 @@
             </div>
         </div>
     </div>
-    <script src="assets/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
