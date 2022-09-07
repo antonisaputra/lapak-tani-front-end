@@ -452,9 +452,34 @@ body {
     color: #cb2533;
 }
 
+.flex-keranjang i:hover{
+    color: #0AC489;
+}
 
 .card-keranjang:hover{
     background-color: #eaebea;
+}
+
+.card-totaharga-keranjang{
+    margin-top:38px !important;
+}
+
+.harga-satuan{
+    margin-top: -20px !important;
+}
+
+.card-detail-keranjang h5, .card-detail-keranjang  h6{
+    margin-top: -10px !important;
+    color: #0AC489;
+}
+
+.card-detail-keranjang{
+    margin-left: -100px !important;
+}
+
+.flex-detail-keranjang a{
+    margin-left: 10px;
+    margin-top: -30px !important;
 }
 
 footer {
